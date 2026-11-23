@@ -4,12 +4,12 @@ An Xposed module (Vector / libxposed API 101-102) that unlocks screenshots block
 
 ## Credits
 
-UnlockShot is a derivative of **DisableFlagSecure ("Enable Screenshot")** by the **LSPosed team** — Wang Han, tehcneko and all contributors:
+UnlockShot is a derivative of **DisableFlagSecure ("Enable Screenshot")** by the **LSPosed team** (Wang Han, tehcneko and all contributors):
 https://github.com/LSPosed/DisableFlagSecure
 
-The original and this derivative are both licensed under **GNU GPL v3.0** (see [LICENSE](LICENSE)). All credit for the core hooks goes to the original authors — this fork only adds diagnostics and ROM tolerance.
+The original and this derivative are both licensed under **GNU GPL v3.0** (see [LICENSE](LICENSE)). All credit for the core hooks goes to the original authors; this fork only adds diagnostics and ROM tolerance.
 
-من القلب شكراً لفريق LSPosed — Wang Han وtehcneko وكل المساهمين. كل الفضل في الهوكس الأساسية ليكم، وسلامنا ليكم 🌷 التعديل ده بس بيضيف تشخيص وتسامح مع الرومات المختلفة، والأصل والنسخة دي الاتنين تحت رخصة GPL v3.0.
+Heartfelt thanks and warm greetings to the LSPosed team. Your work made this module possible.
 
 ## What it does
 
@@ -37,7 +37,7 @@ The original and this derivative are both licensed under **GNU GPL v3.0** (see [
 
 ## Tested on
 
-- Samsung Galaxy A56 5G (SM-A566B), One UI 9.0, Android 17, EGY firmware, KernelSU + Vector — working on first try.
+- Samsung Galaxy A56 5G (SM-A566B), One UI 9.0, Android 17, EGY firmware, KernelSU + Vector, working on first try.
 
 It may or may not work on other devices/ROMs. The log output is there to tell you exactly what applied on yours.
 
@@ -53,4 +53,4 @@ Manual pipeline, no Gradle: `javac 17` + `d8` + `aapt2` + `zipalign` + `apksigne
 
 ## License
 
-GNU GPL v3.0 — same as upstream. See [LICENSE](LICENSE).
+GNU GPL v3.0, same as upstream. See [LICENSE](LICENSE).
