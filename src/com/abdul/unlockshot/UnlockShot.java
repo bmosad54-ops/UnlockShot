@@ -532,4 +532,4 @@ public class UnlockShot extends XposedModule {
             return chain.proceed();
         });
     }
-                  }
+}
