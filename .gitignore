@@ -1,0 +1,10 @@
+# Signing and local config - never commit
+*.jks
+*.keystore
+local.properties
+
+# Build outputs
+*.apk
+*.dex
+build/
+out/
